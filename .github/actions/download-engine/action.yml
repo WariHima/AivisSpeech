@@ -20,7 +20,7 @@ inputs:
   token:
     description: "GitHub API トークン。"
     required: false
-    default: ${{ github.token }}
+    default: ${{ secrets.AVIS_SPEECH_ENGINE_TOKEN }}
 
 outputs:
   run_path:
