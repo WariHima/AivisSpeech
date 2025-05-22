@@ -29,6 +29,9 @@ outputs:
   version:
     description: "AivisSpeech Engine のバージョン。"
     value: ${{ steps.result.outputs.version }}
+
+permissions: read-all
+
 runs:
   using: "composite"
   steps:
