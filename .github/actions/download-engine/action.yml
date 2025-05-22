@@ -5,7 +5,7 @@ inputs:
   repo:
     description: "リポジトリ名。デフォルトは Aivis-Project/AivisSpeech-Engine 。"
     required: false
-    default: "Aivis-Project/AivisSpeech-Engine"
+    default: "WariHima/AivisSpeech-Engine"
   version:
     description: "AivisSpeech Engine のバージョン。latest (デフォルト) 、prerelease-latest、バージョン番号 (例: 1.0.0) で指定できる。"
     required: false
