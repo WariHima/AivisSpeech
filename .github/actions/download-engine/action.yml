@@ -20,7 +20,7 @@ inputs:
   token:
     description: "GitHub API トークン。"
     required: false
-    default: ${{ github.token }}
+    default: ${{ secrets.GITHUB_READ }}
 
 outputs:
   run_path:
@@ -30,7 +30,6 @@ outputs:
     description: "AivisSpeech Engine のバージョン。"
     value: ${{ steps.result.outputs.version }}
 
-permissions: read-all
 
 runs:
   using: "composite"
