@@ -20,7 +20,7 @@ inputs:
   token:
     description: "GitHub API トークン。"
     required: false
-    default: ${{ secrets.READ_API }}
+    default: ${{ github.token }}
 
 outputs:
   run_path:
