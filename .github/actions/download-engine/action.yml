@@ -9,7 +9,7 @@ inputs:
   version:
     description: "AivisSpeech Engine のバージョン。latest (デフォルト) 、prerelease-latest、バージョン番号 (例: 1.0.0) で指定できる。"
     required: false
-    default: "latest"
+    default: "prerelease-latest"
   dest:
     description: "AivisSpeech Engine を展開するディレクトリ。"
     required: true
