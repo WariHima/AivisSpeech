@@ -9,7 +9,7 @@ inputs:
   version:
     description: "AivisSpeech Engine のバージョン。latest (デフォルト) 、prerelease-latest、バージョン番号 (例: 1.0.0) で指定できる。"
     required: false
-    default: "prerelease-latest"
+    default: "latest"
   dest:
     description: "AivisSpeech Engine を展開するディレクトリ。"
     required: true
@@ -20,7 +20,7 @@ inputs:
   token:
     description: "GitHub API トークン。"
     required: false
-    default: ${{ secrets.AVIS_SPEECH_ENGINE_TOKEN }}
+    default: ${{ github.token }}
 
 outputs:
   run_path:
